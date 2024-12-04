@@ -1,0 +1,67 @@
+div{
+   text-align: center;
+   /* position: relative; */
+   border: 1px solid black;
+   height: 90vh;
+}
+button{
+    margin:10px ;
+    padding: 5px;
+}
+.head{
+    /* border: 1px solid black; */
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    border-radius: 50%;
+   
+}
+.bodysec{
+    width: 150px;
+    height: 200px;
+    /* border: 1px solid black; */
+    /* position: absolute; */
+    margin: auto;
+}
+.leg1{
+    width: 50px;
+    height: 100px;
+    /* border: 1px solid black; */
+    /* position: absolute; */
+    margin: auto;
+    position: absolute;
+    margin-left: 50%;
+    
+}
+.leg2{
+    width: 50px;
+    height: 100px;
+    /* border: 1px solid black; */
+    /* position: absolute; */
+    margin: auto;
+    position: absolute;
+    margin-left: 45%;
+}
+.hand1{
+    width: 20px;
+    height: 100px;
+    /* border: 1px solid black; */
+    position: relative;
+    margin: auto;
+    transform: skewX(-0.06turn);
+    margin-top: 10%;
+    margin-top: -12%;
+    margin-left: 42%;
+    
+    
+}
+.hand2{
+    width: 20px;
+    height: 100px;
+    /* border: 1px solid black; */
+    position: absolute;
+    margin: auto;
+    transform: skewX(-0.06turn);
+    margin-top: -13%;
+    margin-left: 56%;
+}
